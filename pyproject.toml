@@ -1,0 +1,15 @@
+[project]
+name = "grid-beam-search"
+version = "1.0.0"
+description = "Grid beam search (Hokamp and Liu, 2017) for lexically constrained translation with T5"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Magnus De Maerteleire" }]
+
+[tool.ruff]
+line-length = 100
+extend-exclude = [".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["B905"]

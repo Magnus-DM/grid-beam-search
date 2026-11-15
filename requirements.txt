@@ -1,0 +1,12 @@
+# CPU-only PyTorch: pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0
+transformers==5.23.0
+sentencepiece==0.2.3
+sacrebleu==2.6.0
+pandas==3.1.1
+pyarrow==26.0.1
+numpy==2.5.4
+matplotlib==3.11.2
+seaborn==0.13.2
+tqdm==4.70.1
+ruff==0.17.5
